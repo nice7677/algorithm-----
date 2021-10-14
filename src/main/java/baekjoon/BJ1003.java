@@ -1,9 +1,8 @@
-package bj;
+package baekjoon;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
 public class BJ1003 {
 
@@ -22,6 +21,13 @@ public class BJ1003 {
         }
     }
 
+    /**
+     * 시간 초과 문제로 Scanner -> BufferReader로 바꾸니 해결댐.
+     * Scanner 와 BufferReader의 차이 설명
+     * https://carpediem0212.tistory.com/11
+     * @param args
+     * @throws IOException
+     */
     public static void main(String[] args) throws IOException {
         result[0] = 0;
         result[1] = 1;
