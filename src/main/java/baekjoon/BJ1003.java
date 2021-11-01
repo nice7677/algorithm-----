@@ -4,6 +4,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * https://www.acmicpc.net/problem/1003
+ * 피보나치 함수
+ */
 public class BJ1003 {
 
     static Integer[] result = new Integer[41];
