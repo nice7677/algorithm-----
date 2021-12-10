@@ -1,4 +1,4 @@
-package programmers.kakao;
+package programmers.kakao.lv1;
 
 /**
  * Programmers 81301

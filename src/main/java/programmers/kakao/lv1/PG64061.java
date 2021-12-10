@@ -1,4 +1,4 @@
-package programmers.kakao;
+package programmers.kakao.lv1;
 
 import java.util.Stack;
 
