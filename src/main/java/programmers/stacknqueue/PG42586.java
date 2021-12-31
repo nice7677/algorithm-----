@@ -1,4 +1,4 @@
-package programmers.practice;
+package programmers.stacknqueue;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
