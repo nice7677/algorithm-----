@@ -1,4 +1,4 @@
-package leetcode.sorting.easy;
+package leetcode.array.easy;
 
 /**
  * LC 941. Valid Mountain Array
