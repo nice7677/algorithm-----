@@ -1,5 +1,8 @@
 package leetcode.datastructure.day.six
 
+/**
+ * LC 242
+ */
 fun main() {
     println(isAnagram("a", "ab"))
 }
