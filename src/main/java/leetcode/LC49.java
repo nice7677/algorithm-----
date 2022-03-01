@@ -2,6 +2,10 @@ package leetcode;
 
 import java.util.*;
 
+/**
+ * Sorting
+ * LeetCode 49. Group Anagrams
+ */
 public class LC49 {
 
     /**
