@@ -38,10 +38,8 @@ public class BJ1003 {
         result[2] = 1;
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
         Integer T = Integer.parseInt(br.readLine());
-//        T = sc.nextInt();
         for (int i = 0; i < T; i++) {
             Integer n;
-//            n = sc.nextInt();
             n = Integer.parseInt(br.readLine());
             if (n >= 0 && n <= 40) {
                 fibonacci(n);
