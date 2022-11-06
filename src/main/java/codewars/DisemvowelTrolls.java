@@ -18,7 +18,7 @@ public class DisemvowelTrolls {
 
     public static String disemvowel(String str) {
         // Code away...
-        String[] strArray = str.split("");
+        String[] strArray = str.split(""); // or char[]
         StringBuilder sb = new StringBuilder();
         for (String s : strArray) {
             if (!isVowel(s)) {
