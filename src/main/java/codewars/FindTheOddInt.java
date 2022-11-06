@@ -6,6 +6,7 @@ import java.util.Map;
 /**
  * 배열에서 홀수개인 정수를 찾기
  * Time: 4498ms Passed: 1Failed: 0
+ * XOR 연산자가 더좋다.
  */
 public class FindTheOddInt {
 
