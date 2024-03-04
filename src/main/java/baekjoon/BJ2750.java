@@ -20,7 +20,7 @@ public class BJ2750 {
 
     }
 
-    public static void bubble() throws IOException {
+    private static void bubble() throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int count = Integer.parseInt(br.readLine());
@@ -42,7 +42,7 @@ public class BJ2750 {
         }
     }
 
-    public static int swap(int count, int[] values, int x, int y) {
+    private static int swap(int count, int[] values, int x, int y) {
 
         if (x == values.length - 1) {
             return count;
