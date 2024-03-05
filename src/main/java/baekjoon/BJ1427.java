@@ -23,16 +23,16 @@ public class BJ1427 {
         for (int i = 0; i < values.length; i++) {
 
             int largestPosition = i;
-            int largest = values[i] - '0';
+            char largest = values[i];
 
             for (int j = i + 1; j < values.length; j++) {
-                if (values[j] - '0' > largest) {
+                if (values[j]> largest) {
                     largestPosition = j;
-                    largest = values[j] - '0';
+                    largest = values[j];
                 }
             }
 
-            if (largest > values[i] - '0') {
+            if (largest > values[i]) {
 
                 char swap = values[largestPosition];
                 values[largestPosition] = values[i];
