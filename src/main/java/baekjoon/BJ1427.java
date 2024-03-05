@@ -5,9 +5,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * 버블 소트 프로그램1
+ * 내림차순정렬
  */
-public class BJ1377 {
+public class BJ1427 {
 
     public static void main(String[] args) throws IOException {
 
